@@ -1,6 +1,6 @@
+setwd('/Users/ywcui/Study/R/projects/HumanActivity_CleanData_Proj')
 require(reshape)
 
-setwd('/Users/ywcui/Study/R/projects/CleanData_Proj')
 download.file(url="http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",
               destfile="HumanActivityData.zip")
 # unzip data to folder ./UCI HAR Dataset
